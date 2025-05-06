@@ -1,3 +1,5 @@
+<img src="https://www.repsol.com/content/dam/repsol-corporate/es/energia-e-innovacion/robot-machine-learning.jpg.transform/rp-rendition-sm/image.jpg" alt="Imagen de Machine Learning" width="700"/>
+
 # 👨‍🎓 Estimación de Calificaciones y Predicción de Aprobación de Estudiantes
 
 Este proyecto tiene como objetivo desarrollar dos modelos de Machine Learning para predecir el rendimiento académico de los estudiantes. Los modelos son:
@@ -34,25 +36,28 @@ Trabajamos con un conjunto de datos que contiene información académica y perso
 ## 📂 Estructura del Proyecto
 
 
-📦 
-├── data/
-│   ├── dataset_estudiantes.csv
-│   ├── clean_dataset_estudiantes.csv
-│   └── preprocessed_dataset.csv
-├── models/
-│   ├── regression_model.pkl
-│   ├── classification_model.pkl
-│   └── standard_scaler.pkl
-├── notebooks/
-│   ├── 01_Cleaning.ipynb
-│   ├── 02_EDA.ipynb
-│   ├── 03_Preprocessing.ipynb
-│   └── 04_Predictive_models.ipynb
-├── main.py                     # API con FastAPI
-├── functions.py               # Funciones de preprocesamiento
-├── requirements.txt           # Dependencias del proyecto
-├── Dockerfile                 # Dockerfile para empaquetar la API
-└── README.md                  # Documentación del proyecto
+- **data/**
+  - `dataset_estudiantes.csv`
+  - `clean_dataset_estudiantes.csv`
+  - `preprocessed_dataset.csv`
+
+- **models/**
+  - `regression_model.pkl`
+  - `classification_model.pkl`
+  - `standard_scaler.pkl`
+
+- **notebooks/**
+  - `01_Cleaning.ipynb`
+  - `02_EDA.ipynb`
+  - `03_Preprocessing.ipynb`
+  - `04_Predictive_models.ipynb`
+
+- `main.py`                     # API con FastAPI
+- `functions.py`                # Funciones de preprocesamiento
+- `requirements.txt`            # Dependencias del proyecto
+- `Dockerfile`                  # Dockerfile para empaquetar la API
+- `README.md`                   # Documentación del proyecto
+
 
 ---
 

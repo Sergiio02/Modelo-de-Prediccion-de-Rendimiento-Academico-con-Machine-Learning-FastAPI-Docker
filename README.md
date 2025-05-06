@@ -1,4 +1,4 @@
-# Estimación de Calificaciones y Predicción de Aprobación de Estudiantes
+# 👨‍🎓 Estimación de Calificaciones y Predicción de Aprobación de Estudiantes
 
 Este proyecto tiene como objetivo desarrollar dos modelos de Machine Learning para predecir el rendimiento académico de los estudiantes. Los modelos son:
 
